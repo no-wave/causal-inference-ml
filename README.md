@@ -1,7 +1,7 @@
 # 인과추론 1: Causal Inference & ML Python 쿡북
 #### 상관을 넘어 처치 효과로, 식별과 추정으로 풀어내는 인과 추론 핵심 가이드이드
 
-<img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252FNTzOyh1Ahzw5WRnvQc0D%252FRL3.png%3Falt%3Dmedia%26token%3D63ae6c97-d457-4172-ac14-d4e72d93d22e&width=300&dpr=3&quality=100&sign=7344a51f&sv=2"  width="500" height="707"/>
+<img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252FGDN4JF0oKuHHWgBT2uzt%252Fcausal-inference1.png%3Falt%3Dmedia%26token%3D551e3680-a807-4207-aba1-24fc44963a10&width=300&dpr=3&quality=100&sign=d2d8ce34&sv=2"  width="500" height="707"/>
 
 
 

@@ -23,116 +23,209 @@
 ## 목 차
 
 저자 소개
+
 Table of Contents (목차)
+
 들어가며
 
 Chapter01. 인과 관계 기초
+
 1.1 인과관계란 무엇인가?
+
 1.2 인과추론의 두 가지 프레임워크
+
 1.3 교란 (Confounding)
+
 1.4 펄의 인과 계층 (Pearl's Causal Hierarchy)
+
 1.5 구조적 인과 모델의 구현
+
 1.6 상관관계 없는 인과관계
+
 1.7 인과추론 최신 연구 동향
+
 1.8 Causality Basic Python 실습
 
 Chapter02. 회귀 분석과 인과추론
+
 2.1 OLS 회귀 분석의 기초
+
 2.2 역방향 회귀와 인과 방향성
+
 2.3 모든 공변량을 통제해야 하는가?
+
 2.4 회귀와 구조 인과 모델의 연결
+
 2.5 비선형 항 포함하기
+
 2.6 회귀 유형 최신 연구 동향
+
 2.7 회귀 분석 (Regression) Python 실습
 
 Chapter03. DAG 방향성 비순환 그래프와 인과 구조
+
 3.1 그래프 이론 기초
+
 3.2 방향성 비순환 그래프 (DAG)
+
 3.3 인접 행렬
+
 3.4 Python에서 그래프 표현
+
 3.5 연결 구조와 독립성
+
 3.6 기본 인과 구조
+
 3.7 d-Separation과 그래프 독립성
+
 3.8 마르코프 조건과 충실성
+
 3.9 실제 응용 예시
+
 3.10 DAG 그래픽 모델 Python 실습
 
 Chapter04. d-분리와 식별가능 추정량
+
 4.1 DAG와 경로 분석
+
 4.2 d-분리 규칙
+
 4.3 백도어 기준 (Backdoor Criterion)
+
 4.4 전면 기준 (Frontdoor Criterion)
+
 4.5 도구변수 (Instrumental Variables)
+
 4.6 인과 추정량 (Causal Estimands)
+
 4.7 식별가능성 (Identifiability)
+
 4.8 실전 예제: 보조금과 매출
+
 4.9 최신 연구 동향
+
 4.10 d-분리와 식별가능 추정 Python 실습
 
 Chapter05. DoWhy와 EconML 라이브러리
+
 5.1 DoWhy 라이브러리 개요
+
 5.2 DoWhy의 4단계 인과추론 파이프라인
+
 5.3 EconML 라이브러리 개요
+
 5.4 이중 머신러닝 (Double Machine Learning)
+
 5.5 이질적 처치 효과의 다양한 추정 방법
+
 5.6 DoWhy와 EconML의 실무 적용
+
 5.7 고급 주제 및 확장
+
 5.8 DoWhy & EconML Python 구현
 
 Chapter06. 인과추론의 가정과 도전 과제
+
 6.1 인과추론의 핵심 가정
+
 6.2 SUTVA 가정
+
 6.3 무시가능성 (Ignorability)
+
 6.4 양성 가정 (Positivity)
+
 6.5 일관성 (Consistency)
+
 6.6 민감도 분석
+
 6.7 선택 편향
+
 6.8 미측정 교란
+
 6.9 관찰 연구의 실무적 도전 과제
+
 6.10 견고성 검증
+
 6.11 인과 모델: 가정과 과제 Python 실습
 
 Chapter07. 인과 머신러닝 기초
+
 7.1 매칭 (Matching)
+
 7.2 역확률 가중법 (IPW)
+
 7.3 메타-학습자 (Meta-Learners)
+
 7.4 S-Learner (단일 모델 학습자)
+
 7.5 T-Learner (이원 모델 학습자)
+
 7.6 X-Learner (확장형 모델 학습자)
+
 7.7 메타-학습자 성능 비교
+
 7.8 이중 강건 방법 (DR-Learner)
+
 7.9 이중 머신러닝 (DML)
+
 7.10 실제 응용: Hillstrom 데이터
+
 7.11 고급 주제 및 확장
+
 7.12 모범 사례 및 권장사항
+
 7.13 Causal Machine Learning Python 실습
 
 Chapter08. 고급 인과 머신러닝
+
 8.1 고급 인과 머신러닝의 개요
+
 8.2 메타-학습자: 빠른 복습
+
 8.3 이중 기계 학습 (DML)
+
 8.4 인과 숲 (Causal Forest)
+
 8.5 일반화 무작위 숲 (GRF)
+
 8.6 상승 모델링 (Uplift Modeling)
+
 8.7 차원의 저주와 대응 전략
+
 8.8 베이지안 인과 숲 (BCF)
+
 8.9 정책 학습 (Policy Learning)
+
 8.10 실제 응용 사례
+
 8.11 최신 연구 동향
+
 8.12 고급 인과추론 머신러닝 Python 실습
 
 Chapter09. 인과 딥러닝
+
 9.1 인과 딥러닝 개요
+
 9.2 표현 학습과 인과성
+
 9.3 TARNet과 CFR
+
 9.4 메타-학습자 (복습)
+
 9.5 Dragonnet
+
 9.6 CEVAE
+
 9.7 Deep IV
+
 9.8 고급 주제와 최신 연구
+
 9.9 인과 딥러닝 Python 예시
+
 9.10 방법론 비교 및 성능 평가
+
 9.11 인과적 딥러닝 Python 실습
+
 9.12 결론 및 향후 연구 방향
 
 마치며
